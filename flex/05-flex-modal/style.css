@@ -57,10 +57,37 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  font-weight: 700;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  font-weight: 500;
+}
+
+
+
+.modal{
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon{
+  flex-shrink: 0;
+}
+
+.header{
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.text{
+  margin-bottom: 18px;
 }
